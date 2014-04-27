@@ -1,8 +1,8 @@
 ## This set of functions stores a given square matrix , calculates it's inverse and caches it in a list. 
 ## When the solve function is called for a stored matrix, the inverse is picked from the same list instead of calculating again.
 
-## This function creates a special list which can get a matrix (square) and calulate and cache it's inverse. 
-## It can also be used to overwrite/set a matrix and then calculate and cache it's inverse
+## This function creates a special list which can get a square matrix and cache it's inverse, through the cacheSolve function.
+## It can also be used to overwrite/set a matrix and cache it's inverse.
 
 makeCacheMatrix <- function(x = matrix()) {
   
